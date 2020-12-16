@@ -18,10 +18,10 @@ float quitButtonX, quitButtonY, quitButtonWidth, quitButtonHeight;
 float resetButtonX, resetButtonY, resetButtonWidth, resetButtonHeight;
 PImage pic1, pic2, pic3, pic4, pic5, pic6, pic7, pic8, pic9;
 Boolean On1=false, On2=false, On3=false, On4=false, On5=false, On6=false, On7=false, On8=false, On9=false;
-pic1 = loadImage("download.jpg");
 
 void setup() {
   fullScreen();
+  images();
   textSetup();
   population();
 }
@@ -64,7 +64,8 @@ void draw() {
   fill(black);
   rect(button1X, button1Y, button1Width, button1Height);
   fill(white);
-   if (On1 == true) image(pic1, picX1, picY1, picWidth1, picHeight1);
+  if (On1 == true && On2 == false && On3 == false && On4 == false && On5 == false && On6 == false && On7 == false && On8 == false && On9 == false) rect(rectXPic1, rectYPic1, rectWidthPic1, rectHeightPic1);
+  image(pic1, picX1, picY1, picWidth1, picHeight1);
   fill(black);
   rect(button2X, button2Y, button2Width, button2Height);
   fill(white);
@@ -102,4 +103,8 @@ void draw() {
 }
 void mousePressed() {
   if ( mouseX>quitButtonX && mouseX<quitButtonX+quitButtonWidth && mouseY>quitButtonY && mouseY<quitButtonY+quitButtonHeight ) exit();
+  On1 = false;
+  On2 = false;
+  if (mouseX>button1X && mouseX<button1X+button1Width && mouseY>button1Y && mouseY<button1Y+button1Height ) On1 = true;
+  if (mouseX>button2X && mouseX<button2X+button2Width && mouseY>button2Y && mouseY<button2Y+button2Height ) On2 = true;
 }

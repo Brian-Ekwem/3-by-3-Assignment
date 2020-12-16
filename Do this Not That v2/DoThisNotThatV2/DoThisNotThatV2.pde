@@ -32,4 +32,5 @@ void mousePressed() {
    } else {
       rectOn = true;
       rectOn2 = false;}
+     println("After", rectOn, rectOn2);
 }

@@ -54,10 +54,10 @@ void population () {
   quitButtonWidth = width*1/27;
   quitButtonHeight = height*1/27;
   reset = 1;
-  rectXPic1 = width*7/9;
-  rectYPic1 = height*7/9;
-  rectWidthPic1 = width*1/3; 
-  rectHeightPic1 = height*1/3;
+  rectXPic1 = width*2/3*2/3;
+  rectYPic1 = height*2/3*2/3;
+  rectWidthPic1 = width*1/9; 
+  rectHeightPic1 = height*1/9;
   picImageWidthRatio1 = 305.0/305.0; 
   picImageHeightRatio1 = 165.0/165.0;
   picX1 = rectXPic1;
