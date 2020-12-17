@@ -15,12 +15,12 @@ void population () {
   //
   button1X = width*1/3*1/3;
   button1Y = height*1/3*1/3;
-  button1Width = width*1/9;
-  button1Height = height*1/9;
+  button1Width = width*1/18;
+  button1Height = height*1/18;
   button2X = width*2/3*2/3;
   button2Y = height*1/3*1/3;
-  button2Width = width*1/9;
-  button2Height = height*1/9;
+  button2Width = width*1/18;
+  button2Height = height*1/18;
   button3X = width*7/9;
   button3Y = height*1/3*1/3;
   button3Width = width*1/9;
@@ -54,10 +54,10 @@ void population () {
   quitButtonWidth = width*1/27;
   quitButtonHeight = height*1/27;
   reset = 1;
-  rectXPic1 = width*2/3*2/3;
-  rectYPic1 = height*2/3*2/3;
-  rectWidthPic1 = width*1/9; 
-  rectHeightPic1 = height*1/9;
+  rectXPic1 = width*2/3;
+  rectYPic1 = height*2/3;
+  rectWidthPic1 = width*1/3; 
+  rectHeightPic1 = height*1/3;
   picImageWidthRatio1 = 305.0/305.0; 
   picImageHeightRatio1 = 165.0/165.0;
   picX1 = rectXPic1;
