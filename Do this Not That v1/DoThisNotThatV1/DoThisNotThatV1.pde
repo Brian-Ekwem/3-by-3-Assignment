@@ -3,7 +3,7 @@ float buttonX2, buttonY2, buttonWidth2, buttonHeight2;
 int noseX1, noseY1, noseX2, noseY2, noseX3, noseY3;
 float rect2DisplayX, rect2DisplayY, rect2DisplayWidth, rect2DisplayHeight, mouthX1, mouthY1, mouthX2, mouthY2;
 Boolean rectOn = false, rectOn2=false;
-color white=#FFFFFF;
+color white=#FFFFFF, red=#FF0303, blue=#0319FF;
 
 void setup() {
   fullScreen();
@@ -16,9 +16,13 @@ void draw() {
   rect(buttonX1, buttonY1, buttonWidth1, buttonHeight1);
   rect(buttonX2, buttonY2, buttonWidth2, buttonHeight2);
   strokeWeight(5);
+  fill(red);
   if (rectOn == true && rectOn2 == false) triangle(noseX1, noseY1, noseX2, noseY2, noseX3, noseY3);
-  strokeWeight(100);
-  if (rectOn == false && rectOn2 == true) line(mouthX1, mouthY1, mouthX2, mouthY2);
+  fill(white);
+  fill(blue);
+  strokeWeight(5);
+  if (rectOn == false && rectOn2 == true) ellipse(mouthX1, mouthY1, mouthX2, mouthY2);
+  fill(white);
 }
 
 void mousePressed() {
