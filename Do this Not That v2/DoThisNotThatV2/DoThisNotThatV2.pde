@@ -24,7 +24,7 @@ void mousePressed() {
   rectOn = false;
   rectOn2 = false;
   println ("Before", rectOn, rectOn2);
-  if (mouseX>buttonX1 && mouseX<buttonX1+buttonWidth1 && mouseY>buttonY1 && mouseY<buttonY1+buttonHeight1 ) rectOn = true;
+  if (mouseX>buttonX1 && mouseX<buttonX1+buttonWidth1 && mouseY>buttonY1 && mouseY<buttonY1+buttonHeight1 )
   println ("After", rectOn, rectOn2);
    if (rectOn == true) {
       rectOn = false;

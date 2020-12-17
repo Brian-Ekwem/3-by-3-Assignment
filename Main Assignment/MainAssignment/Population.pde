@@ -49,23 +49,26 @@ void population () {
   button8Height = height*1/9;
   button9X = width*7/9;
   button9Y = height*7/9;
+  //
   button9Width = width*1/9;
   button9Height = height*1/9;
-  quitButtonX = width*18.25/19;
-  quitButtonY = height*1/300;
+  quitButtonX = width*18.3/19;
+  quitButtonY = height*0.1/300;
   quitButtonWidth = width*1/27;
   quitButtonHeight = height*1/27;
   reset = 1;
+  //
   rectXPic1 = width*2/3;
   rectYPic1 = height*2/3;
   rectWidthPic1 = width*1/3; 
   rectHeightPic1 = height*1/3;
   picImageWidthRatio1 = 305.0/305.0; 
-  picImageHeightRatio1 = 165.0/165.0;
+  picImageHeightRatio1 = 165.0/305.0;
   picX1 = rectXPic1;
   picY1 = rectYPic1;
   picWidth1 = rectWidthPic1 * picImageWidthRatio1; 
   picHeight1 = picWidth1 * picImageHeightRatio1; 
+  //
   rectXPic2 = width*3/9;
   rectYPic2 = height*6/9;
   rectWidthPic2 = width*1/3; 
@@ -76,14 +79,81 @@ void population () {
   picY2 = rectYPic2;
   picWidth2 = rectWidthPic2 * picImageWidthRatio2; 
   picHeight2 = picWidth2 * picImageHeightRatio2;
+  //
   rectXPic3 = width*0/9;
   rectYPic3 = height*6/9;
   rectWidthPic3 = width*1/3; 
   rectHeightPic3 = height*1/3;
   picImageWidthRatio3 = 317.0/317.0; 
-  picImageHeightRatio3 = 159.0/159.0;
+  picImageHeightRatio3 = 159.0/317.0;
   picX3 = rectXPic3;
   picY3 = rectYPic3;
   picWidth3 = rectWidthPic3 * picImageWidthRatio3; 
   picHeight3 = picWidth3 * picImageHeightRatio3;
+  //
+  rectXPic4 = width*2/3;
+  rectYPic4 = height*3/9;
+  rectWidthPic4 = width*1/3; 
+  rectHeightPic4 = height*1/3;
+  picImageWidthRatio4 = 300.0/300.0; 
+  picImageHeightRatio4 = 168.0/300.0;
+  picX4 = rectXPic4;
+  picY4 = rectYPic4;
+  picWidth4 = rectWidthPic4 * picImageWidthRatio4; 
+  picHeight4 = picWidth4 * picImageHeightRatio4;
+  //
+  rectXPic5 = width*3/9;
+  rectYPic5 = height*3/9;
+  rectWidthPic5 = width*1/3; 
+  rectHeightPic5 = height*1/3;
+  picImageWidthRatio5 = 300.0/300.0; 
+  picImageHeightRatio5 = 168.0/300.0;
+  picX5 = rectXPic5;
+  picY5 = rectYPic5;
+  picWidth5 = rectWidthPic5 * picImageWidthRatio5; 
+  picHeight5 = picWidth5 * picImageHeightRatio5;
+  //
+  rectXPic6 = width*0/9;
+  rectYPic6 = height*3/9;
+  rectWidthPic6 = width*1/3; 
+  rectHeightPic6 = height*1/3;
+  picImageWidthRatio6 = 300.0/300.0; 
+  picImageHeightRatio6 = 168.0/300.0;
+  picX6 = rectXPic6;
+  picY6 = rectYPic6;
+  picWidth6 = rectWidthPic6 * picImageWidthRatio6; 
+  picHeight6 = picWidth6 * picImageHeightRatio6;
+  //
+  rectXPic7 = width*2/3;
+  rectYPic7 = height*0/9;
+  rectWidthPic7 = width*1/3; 
+  rectHeightPic7 = height*1/3;
+  picImageWidthRatio7 = 275.0/275.0; 
+  picImageHeightRatio7 = 183.0/275.0;
+  picX7 = rectXPic7;
+  picY7 = rectYPic7;
+  picWidth7 = rectWidthPic7 * picImageWidthRatio7; 
+  picHeight7 = picWidth7 * picImageHeightRatio7;
+  //
+  rectXPic8 = width*1/3;
+  rectYPic8 = height*0/9;
+  rectWidthPic8 = width*1/3; 
+  rectHeightPic8 = height*1/3;
+  picImageWidthRatio8 = 275.0/275.0; 
+  picImageHeightRatio8 = 183.0/275.0;
+  picX8 = rectXPic8;
+  picY8 = rectYPic8;
+  picWidth8 = rectWidthPic8 * picImageWidthRatio8; 
+  picHeight8 = picWidth8 * picImageHeightRatio8;
+  //
+  rectXPic9 = width*0/9;
+  rectYPic9 = height*0/9;
+  rectWidthPic9 = width*1/3; 
+  rectHeightPic9 = height*1/3;
+  picImageWidthRatio9 = 300.0/300.0; 
+  picImageHeightRatio9 = 168.0/300.0;
+  picX9 = rectXPic9;
+  picY9 = rectYPic9;
+  picWidth9 = rectWidthPic9 * picImageWidthRatio9; 
+  picHeight9 = picWidth9 * picImageHeightRatio9;
 }
