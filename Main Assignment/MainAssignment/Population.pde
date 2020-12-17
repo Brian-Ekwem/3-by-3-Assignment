@@ -64,4 +64,14 @@ void population () {
   picY1 = rectYPic1;
   picWidth1 = rectWidthPic1 * picImageWidthRatio1; 
   picHeight1 = picWidth1 * picImageHeightRatio1; 
+  rectXPic2 = width*3/9;
+  rectYPic2 = height*6/9;
+  rectWidthPic2 = width*1/3; 
+  rectHeightPic2 = height*1/3;
+  picImageWidthRatio2 = 259.0/259.0; 
+  picImageHeightRatio2 = 194.0/259.0;
+  picX2 = rectXPic2;
+  picY2 = rectYPic2;
+  picWidth2 = rectWidthPic2 * picImageWidthRatio2; 
+  picHeight2 = picWidth2 * picImageHeightRatio2;
 }
