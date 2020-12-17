@@ -104,6 +104,8 @@ void draw() {
   if (On1 == true && On2 == false && On3 == false && On4 == false && On5 == false && On6 == false && On7 == false && On8 == false && On9 == false) image(pic1, picX1, picY1, picWidth1, picHeight1);
   if (On1 == false && On2 == true && On3 == false && On4 == false && On5 == false && On6 == false && On7 == false && On8 == false && On9 == false) rect(rectXPic2, rectYPic2, rectWidthPic2, rectHeightPic2);
   if (On1 == false && On2 == true && On3 == false && On4 == false && On5 == false && On6 == false && On7 == false && On8 == false && On9 == false) image(pic2, picX2, picY2, picWidth2, picHeight2);
+  if (On1 == false && On2 == false && On3 == true && On4 == false && On5 == false && On6 == false && On7 == false && On8 == false && On9 == false) rect(rectXPic3, rectYPic3, rectWidthPic3, rectHeightPic3);
+  if (On1 == false && On2 == false && On3 == true && On4 == false && On5 == false && On6 == false && On7 == false && On8 == false && On9 == false) image(pic3, picX3, picY3, picWidth3, picHeight3);
   //
   if ( mouseX>quitButtonX && mouseX<quitButtonX+quitButtonWidth && mouseY>quitButtonY && mouseY<quitButtonY+quitButtonHeight ) { 
     buttonColour = circleRed;
@@ -120,8 +122,35 @@ void mousePressed() {
   if ( mouseX>quitButtonX && mouseX<quitButtonX+quitButtonWidth && mouseY>quitButtonY && mouseY<quitButtonY+quitButtonHeight ) exit();
   //
   if (mouseX>button1X && mouseX<button1X+button1Width && mouseY>button1Y && mouseY<button1Y+button1Height ) On1 = true;
+  if (On1 == true) {
+    On1 = true;
+    On2 = false;
+    On3 = false;
+  } else {
+    On1 = false;
+    On2 = true;
+    On3 = true;
+  }
   if (mouseX>button2X && mouseX<button2X+button2Width && mouseY>button2Y && mouseY<button2Y+button2Height ) On2 = true;
+  if (On2 == true) {
+    On1 = false;
+    On2 = true;
+    On3 = false;
+  } else {
+    On1 = true;
+    On2 = false;
+    On3 = true;
+  }
   if (mouseX>button3X && mouseX<button3X+button3Width && mouseY>button3Y && mouseY<button3Y+button3Height ) On3 = true;
+  if (On3 == true) {
+    On1 = false;
+    On2 = false;
+    On3 = true;
+  } else {
+    On1 = true;
+    On2 = true;
+    On3 = false;
+  }
   if (mouseX>button4X && mouseX<button4X+button4Width && mouseY>button4Y && mouseY<button4Y+button4Height ) On4 = true;
   if (mouseX>button5X && mouseX<button5X+button5Width && mouseY>button5Y && mouseY<button5Y+button5Height ) On5 = true;
   if (mouseX>button6X && mouseX<button6X+button6Width && mouseY>button6Y && mouseY<button6Y+button6Height ) On6 = true;

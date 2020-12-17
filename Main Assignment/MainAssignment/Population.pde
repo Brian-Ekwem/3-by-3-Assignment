@@ -1,4 +1,6 @@
 void population () {
+  On1=false;
+  On2=false;
   ptDiameter = width * 1 / 27.77777777;
   rectWidth = width*1/3;
   rectHeight = height*1/3;
@@ -15,12 +17,12 @@ void population () {
   //
   button1X = width*1/3*1/3;
   button1Y = height*1/3*1/3;
-  button1Width = width*1/18;
-  button1Height = height*1/18;
+  button1Width = width*1/9;
+  button1Height = height*1/9;
   button2X = width*2/3*2/3;
   button2Y = height*1/3*1/3;
-  button2Width = width*1/18;
-  button2Height = height*1/18;
+  button2Width = width*1/9;
+  button2Height = height*1/9;
   button3X = width*7/9;
   button3Y = height*1/3*1/3;
   button3Width = width*1/9;
@@ -74,4 +76,14 @@ void population () {
   picY2 = rectYPic2;
   picWidth2 = rectWidthPic2 * picImageWidthRatio2; 
   picHeight2 = picWidth2 * picImageHeightRatio2;
+  rectXPic3 = width*0/9;
+  rectYPic3 = height*6/9;
+  rectWidthPic3 = width*1/3; 
+  rectHeightPic3 = height*1/3;
+  picImageWidthRatio3 = 317.0/317.0; 
+  picImageHeightRatio3 = 159.0/159.0;
+  picX3 = rectXPic3;
+  picY3 = rectYPic3;
+  picWidth3 = rectWidthPic3 * picImageWidthRatio3; 
+  picHeight3 = picWidth3 * picImageHeightRatio3;
 }
