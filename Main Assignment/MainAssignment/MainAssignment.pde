@@ -99,6 +99,7 @@ void draw() {
   fill(white);
   fill(black);
   rect(button9X, button9Y, button9Width, button9Height);
+  //
   if (On1 == true && On2 == false && On3 == false && On4 == false && On5 == false && On6 == false && On7 == false && On8 == false && On9 == false) rect(rectXPic1, rectYPic1, rectWidthPic1, rectHeightPic1);
   if (On1 == true && On2 == false && On3 == false && On4 == false && On5 == false && On6 == false && On7 == false && On8 == false && On9 == false) image(pic1, picX1, picY1, picWidth1, picHeight1);
   if (On1 == false && On2 == true && On3 == false && On4 == false && On5 == false && On6 == false && On7 == false && On8 == false && On9 == false) rect(rectXPic2, rectYPic2, rectWidthPic2, rectHeightPic2);
