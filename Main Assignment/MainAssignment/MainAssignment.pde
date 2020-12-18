@@ -320,7 +320,7 @@ void mousePressed() {
       On8 = true;
       On9 = false;
     }
-  if (mouseX>button9X && mouseX<button2X+button9Width && mouseY>button9Y && mouseY<button9Y+button9Height )
+  if (mouseX>button9X && mouseX<button9X+button9Width && mouseY>button9Y && mouseY<button9Y+button9Height )
     if (On9 == true) {
       On1 = true;
       On2 = true;
